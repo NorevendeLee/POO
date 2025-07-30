@@ -1,8 +1,7 @@
-import './App.css'
 import { Usuario } from './models/Usuario'
 
 function App() {
-  const u1 = new Usuario('João da Silva', 37)
+  const u1 = new Usuario('João', 30)
 
   return (
     <>
@@ -12,3 +11,4 @@ function App() {
 }
 
 export default App
+
